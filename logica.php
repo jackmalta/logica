@@ -55,13 +55,26 @@
 
   */
 
-  //Programa da piramide
+  /*Programa da piramide
 
   for ($i = 0; $i < 5; $i++) {
       for ($j = 0; $j <= $i; $j++) {
         echo "*";
       }
       echo "\n <br>";
+  }
+
+  */
+
+  //Programa da priramide 2
+  for ($c = 0; $c < 5; $c++) {
+    for ($i = 0; $i < 5; $i++) {
+        for ($j = 0; $j <= $i; $j++) {
+          echo "*";
+        }
+        echo "\n <br>";
+    }
+    echo "\n <br>";
   }
 
 ?>
