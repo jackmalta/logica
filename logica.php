@@ -66,7 +66,7 @@
 
   */
 
-  //Programa da priramide 2
+  /* Programa da priramide 2
   for ($c = 0; $c < 5; $c++) {
     for ($i = 0; $i < 5; $i++) {
         for ($j = 0; $j <= $i; $j++) {
@@ -76,5 +76,21 @@
     }
     echo "\n <br>";
   }
+
+  */
+
+  //Programa Fibonacci
+  $n1 = 0;
+  $n2 = 1;
+  $n3 = $n1 + $n2;
+
+  for ($i = 0; $i < 20; $i++) {
+    echo "$n3 \n <br>";
+    $n1 = $n2;
+    $n2 = $n3;
+    $n3 = $n1 + $n2;
+
+  }
+
 
 ?>
