@@ -43,7 +43,7 @@
 
   */
 
-  //Tentando de novo o do PIN
+  /*Tentando de novo o do PIN (bem melhor)
 
   for ($i = 1; $i <= 100; $i++) {
     if ($i % 4) {
@@ -51,6 +51,17 @@
     } else {
       echo "PIN \n <br>";
     }
+  }
+
+  */
+
+  //Programa da piramide
+
+  for ($i = 0; $i < 5; $i++) {
+      for ($j = 0; $j <= $i; $j++) {
+        echo "*";
+      }
+      echo "\n <br>";
   }
 
 ?>
